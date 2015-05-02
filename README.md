@@ -1,6 +1,9 @@
 # unstuckr: Fix stuck pixels.
 
-Unstuckr intends to fix stuck pixel on your display. Unlike other software
+Unstuckr intends to fix stuck pixel on your display by flashing solid colors on
+the screen.
+
+Unlike other software
 
 - Your computer remains usable
 - It doesn't give you seizures
