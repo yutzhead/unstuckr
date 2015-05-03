@@ -6,10 +6,17 @@ the screen.
 Unlike other software
 
 - Your computer remains usable
-- It doesn't give you seizures
+- It doesn't give you seizures (especially when you only flash the stuck pixel)
+- Flashes at full blast with the refresh frequency of the display
 
-(especially when you only flash the stuck pixel)
+Usage: unstuckr.py [&lt;x&gt;] [&lt;y&gt;] [&lt;rectangle size&gt;] [&lt;rectangle size&gt;]
 
-Usage: unstuckr.py &lt;x&gt; &lt;y&gt; [&lt;rectangle size&gt;]
+If started without options, unstuckr will display a black square. Move it with
+the cursors above the stuck pixel, resize square with +/- and start flashing
+by pressing *s*.
 
-Default rectangle size is 1, which flashes only the stuck pixel.
+Colors are red, green, blue, white and sequence. sequence alternates between
+red, green and blue and is the default.
+
+If science is to be believed, flashing white or the individual color of the stuck
+subpixel increases the frequency by 2/3 and may even work better.
